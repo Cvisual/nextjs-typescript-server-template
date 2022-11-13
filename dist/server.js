@@ -9,9 +9,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-//const { express } = require('express');
-// import { createRequire } from "node:module";
-// const require = createRequire(import.meta.url);
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
