@@ -1,5 +1,7 @@
-import express, {Request, Response} from "express";
+//import express, {Request, Response} from "express";
 
+
+const express = require('express');
 const { createServer } = require('http');
 const { parse } = require('url');
 const next = require('next');
@@ -32,3 +34,5 @@ app.prepare().then(() => {
     console.log(`> Ready on http://${hostname}:${port}`)
   })
 })
+
+export {}

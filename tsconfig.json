@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "lib": ["es6"],
+    "lib": ["es6", "dom"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,7 +19,7 @@
     "moduleResolution": "node",
     "noEmit": true,
     "noEmitOnError": true,
-    "noImplicitAny": true,
+    "noImplicitAny": true
   },
   "ts-node": {
     "esm": true
